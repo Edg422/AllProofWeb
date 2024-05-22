@@ -1,5 +1,9 @@
-/**/.*  # ignore all dotted files
-/**/.*/ # ignore all dotted folders
+/**/.* \
+# ignore all dotted files
+/**/.*/ 
+# ignore all dotted folders
+.*
+!/.gitignore
 *.egg-info
 *.pot
 *.py[co]
