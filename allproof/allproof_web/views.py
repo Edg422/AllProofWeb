@@ -18,3 +18,6 @@ def bin(request):
 
 def png(request):
     return redirect('/static/verge/path6864.png')
+
+def autoshop(request):
+    return redirect('/static/verge/autoshop_01_1k.png')
