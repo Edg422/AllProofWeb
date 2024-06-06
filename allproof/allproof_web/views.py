@@ -9,3 +9,12 @@ def allproof_web(request):
 
 def gltf(request):
     return redirect('/static/verge/Allproof_web.gltf')
+
+def visual(request):
+    return redirect('/static/verge/visual_logic.js')
+
+def bin(request):
+    return redirect('/static/verge/Allproof_web.bin')
+
+def png(request):
+    return redirect('/static/verge/path6864.png')
