@@ -1,4 +1,4 @@
-from django.shortcuts import render
+from django.shortcuts import render, redirect
 
 
 def index(request):
@@ -6,3 +6,6 @@ def index(request):
 
 def allproof_web(request):
     return render(request, 'allproof_web/templates/allproof_web/allproof_web.html')
+
+def gltf(request):
+    return redirect('/static/verge/Allproof_web.gltf')
