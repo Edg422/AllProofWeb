@@ -7,8 +7,8 @@ window.addEventListener('load', e => {
     createApp({
         containerId: 'v3d-container',
         fsButtonId: 'fullscreen-button',
-        sceneURL: params.load || 'Allproof_web.gltf',
-        logicURL: params.logic || 'visual_logic.js',
+        sceneURL: params.load || 'static/verge/Allproof_web.gltf',
+        logicURL: params.logic || 'static/verge/visual_logic.js',
     });
 });
 
